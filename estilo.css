@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #6357FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    max-width: 1700px;
+    margin: 0 auto;
+
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFB400;
+    width: 100%;
+}
+
+
+header ul{
+    margin-top:10px;
+list-style: none;
+}
+
+header li a { 
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor-navflex{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-logo-texto-seleccionable{
+text-decoration: none;
+color: #1D1D1B;
+}
+
+.titularnav{
+    text-decoration: none;
+    color: #1D1D1B;
+    user-select: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+}
+
+.contenedor-logo-texto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 6rem;
+}
+
+nav{
+    margin-right: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    font-weight: 500;
+    display: block;
+    padding: 1.0rem;
+}
+
+nav ul li a:hover {
+background: rgb(247, 247, 247);
+transition: all 0.3s linear;
+border-radius: 25px;
+}
+
+.section-sobre-nosotros{
+    padding-top:5rem;
+    background-color: #6357FF;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 1080px;
+
+}
+.section-sobre-nosotros .contenido-sobre-nosotros{
+    justify-items: center;
+    width: 551px;
+    margin-top:313px;
+    padding-left: 113px;
+
+}
+
+.agencia-digital{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#quienes-somos{
+    display: block;
+    font-size: 20px;
+    margin: 0;
+}
+
+#somos-agencia{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.section-que-hacemos{
+    background-color: #1D1D1B;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 1080px;
+
+}
+
+.section-que-hacemos .contenido-que-hacemos {
+    background-color: #1D1D1B;
+    justify-items: center;
+    width: 1200px;
+
+}
+
+.contenido-a-centrar{
+    color:#FFB400;
+    padding-right: 60px;
+    margin-top: 313px;
+    margin-left: 113px;
+    margin-right: 113px;
+}
+
+.sobre-agencia {
+    font-size: 80px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.somos-agencia{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.image-que-hacemos{
+    width: auto;
+    background-image:url("./img/GRIS-NARANJA.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgquehacemos{
+    margin-right: 113px;
+}
+
+.section-nuestro-trabajo{
+    justify-content: space-between;
+    background-color:#6357FF;
+    display: flex;
+    align-items: center;
+    width:auto;
+    height: 600px;
+
+}
+
+.section-nuestro-trabajo .contenido-nuestro-trabajo {
+    width: 1200px;
+    display: flex;
+    color:#1D1D1B;
+    margin-left: 113px;
+    margin-right: 113px;
+
+}
+.contenido-a-centrar-nuestro-trabajo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portafolio {
+    font-size: 80px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.portafolio-texto{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.somos-diseñadores{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.servicios{
+    display: block;
+    margin: 10rem;
+}
+
+.section-portafolio{
+    display: flex;
+    background-color: #1D1D1B;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 740px;
+    max-width: 1900px;
+}
+.contenedor-portafolio{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    padding: 0;
+    width: auto;
+}
+
+.carousel{
+    margin-top: auto;
+    max-width: 1000px;
+}
+
+.carousel-inner{
+    margin-top: auto;
+    padding: auto;
+}
+
+.titular-portafolio{
+    color: #FFB400;
+    font-size: 50px;
+}
+
+#integrantes{
+    background-color: #6357FF;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+#integrantes article{
+    width: 300px;
+    background-color: whitesmoke;
+    color: rgb(85, 83, 83);
+    padding: 10px;
+}
+
+.contenedor-integrantes{
+    color: #1D1D1B;
+padding-top: 40px;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-left: 100px;
+margin-bottom: 40px;
+}
+
+.flexbox-integrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contacto{
+    padding:40px 0;
+}
+
+.staffs{
+    text-align: center;
+}
+
+.stafftitulo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1D1D1B;
+}
+
+.contenedor-consulta{
+    background-color:#1D1D1B;
+    color: #ffffff;
+}
+
+form{
+    color: #ffffff;
+    width: 1700px;
+    margin: auto;
+}
+
+label,input{
+    display: block;
+    width: 100%;
+    margin:10px 0;
+}
+
+input{
+    height: 35px;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin:10px 0;
+    border:none;
+    outline: none;
+}
+
+.tituloform{
+    margin-left: 6rem;
+}
+
+.botones{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-flex-footer{
+    color:#1D1D1B;
+    font-size: 0.8vw;
+    font-weight: 400;
+    display: flex;
+    background-color: #6357FF;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.redesociales{
+    justify-content: center;
+    padding-bottom: 1vw;
+    background-color: #6357FF;
+}
+
+.contenedorredessociales{
+    margin-left: 33vw;
+    width: 600px;
+    display: flex;
+    justify-content:space-around;
+}
+
