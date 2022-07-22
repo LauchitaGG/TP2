@@ -18,6 +18,7 @@ body {
 
 header{
     position: fixed;
+    z-index: 1030;
     left: 0;
     top: 0;
     right: 0;
@@ -293,7 +294,24 @@ margin-bottom: 40px;
 
 .staffs{
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 12px -1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 1px 12px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 1px 12px -1px rgba(0,0,0,0.6);
+
 }
+
+
+.staffs a img{
+    border-radius: 20px;
+        
+}
+
+.staffs a img:hover{
+    transform: scale(1.2);
+}
+
+
 
 .stafftitulo{
     font-size: 1.5rem;
