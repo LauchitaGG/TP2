@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
     <title> Gonzalez Lautaro TP2 </title>
     <link rel="shortcut icon" href="./img/Bambinos-logo-naranja.svg">
 </head>
@@ -69,39 +70,25 @@
         </div>
     </section>
     <section class="section-portafolio">
-        <div class="contenedor-portafolio">
-            <h2 class="titular-portafolio"> PORTAFOLIO </h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/revistas.jpg" class="d-block w-100" alt="Servicios">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/publicidades.jpg" class="d-block w-100" alt="revistas">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/mockups.jpg" class="d-block w-100" alt="mockups">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/mockupvino.jpg" class="d-block w-100" alt="mockupvino">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/fotografiacarrusel.jpg" class="d-block w-100" alt="fotografiacarrusel">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/POSTERS.jpg" class="d-block w-100" alt="POSTERS">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              </div>
+      <div id="mainCarousel" class="carousel mb-4 w-10/12 max-w-xl mx-auto">
+
+        <div class="carousel__slide" data-lazy-src="./img/mockups.jpg">
+        </div>
+        <div class="carousel__slide" data-lazy-src="./img/publicidades.jpg">
+        </div>
+        <div class="carousel__slide" data-lazy-src="./img/revistas.jpg">
+
+        </div>
+        <div class="carousel__slide" data-lazy-src="./img/fotografiacarrusel.jpg">
+
+          </div>
+          <div class="carousel__slide" data-lazy-src="./img/POSTERS.jpg">
+
+          </div>
+          <div class="carousel__slide" data-lazy-src="./img/mockupvino.jpg">
+
+          </div>
+      </div>
     </section>
     <section id="integrantes">
         <div class="contenedor-integrantes">
@@ -125,7 +112,7 @@
                     <a href="./img/Fotoperfil2.jpg" target="new" title="Ver imagen">
                         <img src="./img/Fotoperfil2.jpg" class="img-fluid" alt="staff3">
                     </a>
-                    <p class="stafftitulo">Luz sanchez</p>
+                    <p class="stafftitulo"> Luz sanchez </p>
                 </article>
             </div>
     </section>
@@ -161,6 +148,12 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+        const myCarousel = new Carousel(document.querySelector(".carousel"), 
+        {
+          // Options
+          });
+      </script>
 </body>
 </html>
