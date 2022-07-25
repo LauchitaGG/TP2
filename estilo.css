@@ -236,10 +236,9 @@ border-radius: 25px;
 #mainCarousel {
     padding-top: 3rem;
     color: #fffeff;
-    --carousel-button-bg: rgb(255, 255, 255);
     --carousel-button-svg-width: 50px;
     --carousel-button-svg-height: 50px;
-    --carousel-button-svg-stroke-width: 2.5;
+    --carousel-button-svg-stroke-width: 3;
   }
   
   #mainCarousel .carousel__slide {
@@ -248,7 +247,7 @@ border-radius: 25px;
     min-height: 650px;
     color: #fff;
     font-size: 3em;
-    border-radius: 30px;
+    border-radius: 40px;
   }
 
 .titular-portafolio{
@@ -322,6 +321,18 @@ margin-bottom: 40px;
 }
 
 form{
+    display: flex;
+    padding-left: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-consulta-englobante{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
     color: #ffffff;
     width: 1700px;
     margin: auto;
@@ -350,6 +361,14 @@ textarea{
 
 .tituloform{
     margin-left: 6rem;
+}
+
+.campos{
+    width: 1000px;
+}
+
+label{
+    border-radius: 20px;
 }
 
 .botones{
